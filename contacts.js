@@ -6,21 +6,21 @@ const db = {}
 const defaultData = {
   contacts: [
     {
-      id: 'ryan',
-      name: 'Ryan Florence',
-      email: 'ryan@reacttraining.com',
-      avatarURL: config.origin + '/ryan.jpg'
+      id: 'richard',
+      name: 'Richard Kalehoff',
+      handle: '@richardkalehoff',
+      avatarURL: config.origin + '/richard.jpg'
     },
     {
-      id: 'michael',
-      name: 'Michael Jackson',
-      email: 'michael@reacttraining.com',
-      avatarURL: config.origin + '/michael.jpg'
+      id: 'karen',
+      name: 'Karen Isgrigg',
+      handle: '@karen_isgrigg',
+      avatarURL: config.origin + '/karen.jpg'
     },
     {
       id: 'tyler',
       name: 'Tyler McGinnis',
-      email: 'tyler@reacttraining.com',
+      handle: '@tylermcginnis',
       avatarURL: config.origin + '/tyler.jpg'
     }
   ]
